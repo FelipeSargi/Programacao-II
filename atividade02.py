@@ -35,4 +35,4 @@ elif imc >= 30.0 and imc <= 39.9:
     print("Sua classificação é: OBESIDADE ")
 elif imc >= 40.0:
     os.system('cls')
-    print("Sua classificação é: OBESIDADE GRAVE ")
+    print("Sua classificação é: OBESIDADE GRAVE  ")
