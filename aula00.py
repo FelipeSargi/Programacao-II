@@ -1,8 +1,38 @@
-nome = "Felipe"
-sobrenome = "Sargi"
-idade = 18
-altura = 1.73
-peso = 80
-midade = (idade >= 18)
+import os
 
-print("\n",nome + sobrenome,"\n", idade,"anos","\n", altura, "m\n",peso , "Kg\n",  "Maior de idade ?\t.",midade , ".") 
+
+nome = input("Digite seu nome: ")
+
+sobrenome = input("Digite seu sobrenome: ")
+
+while True:
+    try:
+        idade = int(input("Digite sua idade: "))
+        break
+    except ValueError:
+        print("Errou feio, errou rude. Tenta outra vez. ")
+
+while True:
+    try:
+        altura = float(input("Digite sua altura: "))
+        break
+    except ValueError:
+        print("Errou feio, errou rude. Tenta outra vez. ")
+
+while True:
+    try:
+        peso = float(input("Digite seu peso: "))
+        break
+    except ValueError:
+        print("Errou feio, errou rude. Tenta outra vez. ")
+
+midade = idade >= 18
+
+os.system('cls')
+
+print(nome, sobrenome,"\n\n", idade, "y\n\n", peso,"Kg\n\n", altura,"m\n\n", "maior de idade?", midade)
+
+if idade >= 18:
+    print("\n\n\tÉ realmente ",midade,"o papo sobre você ser maior de idade, hein.\n\n")
+else:
+    print("\n\n\tSempre soube que esse papo de maior de idade era ", midade,"\n\n")
