@@ -1,6 +1,6 @@
 import os 
 
-print("Programa le dois números e aponta qual deles é o maior. ")
+print("Programa lê dois números e aponta qual deles é o maior. ")
 os.system('cls')
 while True:
     try:
