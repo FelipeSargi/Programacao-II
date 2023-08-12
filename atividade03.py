@@ -15,7 +15,7 @@ while True:
         break
     except ValueError:
             os.system('cls')
-            print("\n\n\tDeu ruim, repete.")
+            print("\n\n\tDeu ruim, repete. ")
 
 if num1 > num2:
     print(num1,"é o maior")
