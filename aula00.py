@@ -1,5 +1,5 @@
 import os
-
+# atividade
 while True:
     try:
         nome = input("Digite seu nome: ")
