@@ -1,9 +1,18 @@
 import os
 
+while True:
+    try:
+        nome = input("Digite seu nome: ")
+        break
+    except ValueError:
+        print("Errou feio, errou rude. Tenta outra vez. ")
 
-nome = input("Digite seu nome: ")
-
-sobrenome = input("Digite seu sobrenome: ")
+while True:
+    try:
+        sobrenome = input("Digite seu sobrenome: ")
+        break
+    except ValueError:
+        print("Errou feio, errou rude. Tenta outra vez. ")
 
 while True:
     try:
