@@ -13,6 +13,7 @@ for cont in range(1,4):
     ad = int(input("Digite a nota do aluno: "))
     nota.append(ad)
     soma = soma + ad
+    print(relatorio)
 
 soma = soma/3
 print(soma)
