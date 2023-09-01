@@ -1,6 +1,6 @@
 import os
 
-lista = [' ',' ',' ',' ',' ',' ',' ',' ']
+lista = [ ]
 
 while True:
         try:
