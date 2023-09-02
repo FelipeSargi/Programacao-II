@@ -4,7 +4,7 @@ lista = []
 
 while True:
         try:
-           print("--------------------------------------")
+           print(" --------------------------------------")
            opcao = int(input("Informe a opção\n1 - Listar os dados.\n2 - Inserir dado\n3 - Apagar dado.\n4 - Editar dado\n5 - Sair:\n"))
            print("--------------------------------------")
            match opcao:
@@ -44,7 +44,7 @@ while True:
                             
                 case 4:
                    print(lista)
-                   editar = input("Qual dado deve ser alterado? ")
+                   editar = input("Qual valor deve ser alterado? ")
                    match editar:
                        case "coca":
                            os.system('cls')
